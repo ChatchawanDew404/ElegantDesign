@@ -1,0 +1,24 @@
+nav.sticky{
+    width: 100%;
+    padding: 10px 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(21, 24, 51);
+    
+    box-shadow: 1px 5px 10px rgba(0,0,0,0.5);
+    transition: 0.5s;
+    z-index: 1000;
+}
+nav.sticky .logo{color: white;}
+nav.sticky ul li a{
+    color: white;
+}
+nav.sticky ul li a:hover{
+    color: rgb(252, 203, 203);
+}
+  @media(max-width:991px){
+      nav.sticky{padding: 10px 20px;}
+  }
+
+  #menu:hover{background-color: rgb(117, 117, 117); }
